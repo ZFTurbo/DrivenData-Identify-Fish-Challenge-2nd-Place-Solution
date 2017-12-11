@@ -14,7 +14,7 @@
 
 ### Notes:
 - Usage of Keras 1.2 is important, since there were many syntax changes in Keras 2.0. It probably will work in 2.0 with some warnings, but I didn't check it.
-- Code is written for Theano backend (it's faster than Tensorflow). Usage with Tensorflow will require some changes considering shape of matrices.
+- Code is written for Theano backend. Usage with Tensorflow will require some changes considering shape of matrices.
 - Code was developed in Microsoft Windows 10, but should work fine in Linux as well.
 
 ## Hardware requirements
