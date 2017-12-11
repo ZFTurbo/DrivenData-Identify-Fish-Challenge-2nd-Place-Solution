@@ -20,8 +20,8 @@ All batch sizes for Neural nets are tuned to be used on NVIDIA GTX 1080 Ti 11 GB
 ## How to run:
 
 All r*.py files must be run one by one. All intermediate folders will be created automatically.
-
-`python r10_prepare_train_test.py
+```
+python r10_prepare_train_test.py
 python r20_train_unet_for_roi_detection.py
 python r30_create_keras_models_for_fish_classification_densenet121.py
 python r30_create_keras_models_for_fish_classification_inception_v3.py
@@ -36,12 +36,15 @@ python r35_fish_exist_predict_with_gbm.py
 python r36_fish_type_predict_with_gbm.py
 python r37_fish_length_predict_with_gbm.py
 python r40_create_csv_from_predictions.py
-python r50_merge_csvs_in_final_submission.py`
+python r50_merge_csvs_in_final_submission.py
+```
 
 **Optional**:
-`python r45_validation_on_csvs_v1.py
+```
+python r45_validation_on_csvs_v1.py
 python r46_validation_on_csvs_v2.py
-python r60_create_debug_videos.py`
+python r60_create_debug_videos.py
+```
 
 ### Notes about a code
 
@@ -52,6 +55,7 @@ python r60_create_debug_videos.py`
 
 ## Description of files and folders
 
+```
 -- DrivenData-Identify-Fish-Challenge-2nd-Place-Solution - folder with solution code
 ---- r10_prepare_train_test.py - Fix column name in training from 'species_grey sole' to 'species_grey_sole'. Extract frames from video files according to 'training.csv' and create masks
 ---- r20_train_unet_for_roi_detection.py - This code train 5KFold modified UNET neural network for segmentation of fishes (e.g. find exact fish location). It requires 2-3 days to complete. Can be run in parallel for 5 Folds on 5 GPUs. You can skip this part if you already have models with name 'ZF_UNET_1280_720_V2_SINGLE_OUTPUT_SMALL_fold_*.h5' in ../models/ directory.
@@ -81,3 +85,4 @@ python r60_create_debug_videos.py`
 ---- README.md  - this file
 -- models - weights for Neural nets which I obtained on my local computer. You can use them to skip training of neural nets from scratch.
 -- weights - open source pretrained weights for DenseNet121: https://github.com/flyyufelix/DenseNet-Keras. Weights were obtained on large dataset: ImageNet.
+```
