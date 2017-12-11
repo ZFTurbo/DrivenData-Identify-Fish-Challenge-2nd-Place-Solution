@@ -92,7 +92,7 @@ python r60_create_debug_videos.py
 ```
 
 ## Initial weights and pretrained models
-- Weights for DenseNet121 and pretrained models available by link (~2.8 GB): https://mega.nz/#!mQ5QSToR!NlgI6BIjdKD9DOmMnDqSqD8T_yTk33H8LMyaqdXnQCY
+- Weights for DenseNet121 and pretrained models available by link (~2.7 GB): https://mega.nz/#!mQ5QSToR!NlgI6BIjdKD9DOmMnDqSqD8T_yTk33H8LMyaqdXnQCY
 
 ## Dataflow
 ![Dataflow](https://github.com/ZFTurbo/DrivenData-Identify-Fish-Challenge-2nd-Place-Solution/blob/master/images/Dataflow.png)
