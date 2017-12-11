@@ -3,6 +3,10 @@
 - Problem description: https://www.drivendata.org/competitions/48/identify-fish-challenge/page/93/
 - Final leaderboard: https://www.drivendata.org/competitions/48/identify-fish-challenge/leaderboard/
 
+## Visualisation
+
+[![DrivenData: Identify Fish Challenge](http://img.youtube.com/vi/OlDPPF_0lWY/0.jpg)](http://www.youtube.com/watch?v=OlDPPF_0lWY "DrivenData: Competition N+1 fish, N+2 fish")
+
 ## Software Requirements
 
 - **Main requirements**: Python 3.4+, keras 1.2.1, theano 0.8.2
