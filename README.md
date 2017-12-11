@@ -5,7 +5,7 @@
 
 ## Visualisation
 
-[![DrivenData: Identify Fish Challenge](http://img.youtube.com/vi/OlDPPF_0lWY/0.jpg)](http://www.youtube.com/watch?v=OlDPPF_0lWY "DrivenData: Competition N+1 fish, N+2 fish")
+[![DrivenData: Identify Fish Challenge](https://github.com/ZFTurbo/DrivenData-Identify-Fish-Challenge-2nd-Place-Solution/blob/master/images/youtube-thumb.jpg)](http://www.youtube.com/watch?v=OlDPPF_0lWY "DrivenData: Competition N+1 fish, N+2 fish")
 
 ## Software Requirements
 
