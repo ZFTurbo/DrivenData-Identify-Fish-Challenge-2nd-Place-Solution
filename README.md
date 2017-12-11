@@ -90,3 +90,9 @@ python r60_create_debug_videos.py
 -- models - weights for Neural nets which I obtained on my local computer. You can use them to skip training of neural nets from scratch.
 -- weights - open source pretrained weights for DenseNet121: https://github.com/flyyufelix/DenseNet-Keras. Weights were obtained on large dataset: ImageNet.
 ```
+
+## Initial weights and pretrained models
+- Weights for DenseNet121 and pretrained models available by link (~2.8 GB):   
+
+## Dataflow
+![Dataflow](https://github.com/ZFTurbo/DrivenData-Identify-Fish-Challenge-2nd-Place-Solution/blob/master/images/Dataflow.png)
